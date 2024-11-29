@@ -412,62 +412,17 @@ $ ls >> /home/kropiak/lista.txt
 will add the data to the file list.txt.
 
 ## **Exercises**
-
-
-1. Przejdź do folderu domowego i wyświetl całą jego zawartość wraz z informacjami o uprawnieniach.
-2. Wyświetl zawartość folderu `/var/log` posortowaną według rozmiaru (w wielkościach bardziej czytelnych dla człowieka – KB, MB itd.) rosnąco.
-3. Za pomocą edytora nano zapisz do pliku imie.txt swoje imię.
-4. Za pomocą komendy echo zapisz swoje nazwisko do pliku nazwisko.txt.
-5. Za pomocą polecenia cat wyświetl zawartość obu plików.
-6. Za pomocą polecenia cat dopisz do pliku imie.txt zawartość pliku nazwisko.txt.
-7. Zapisz do pliku listę folderów ze swojego folderu domowego.
-8. Przy pomocy narzędzia find wyszukaj wszystkie puste pliki w folderach domowych
-użytkowników.
-9. Przy pomocy narzędzia find wyszukaj wszystkie zwykłe pliki w swoim folderze domowym i zapisz wynik komendy do pliku ~/moje_pliki.txt.
-10. Za pomocą find wyszukaj wszystkie pliki, których jesteś właścicielem.
-11. Za pomocą find wyszukaj wszystkie pliki w folderze `~`, które zostały zmodyfikowane w ciągu ostatniego dnia.
-12. Korzystając z programu find znajdź wszystkie pliki, które posiadają w nazwie słowo mozilla i znajdują się w podkatalogach katalogu /usr.
-13. Korzystając z programu find znajdź wszystkie katalogi o nazwie bin, które znajdują się w katalogu /usr.
-14. Za pomocą polecenia ls wyświetl tylko pliki z rozszerzeniem txt, które znajdują się w folderze domowym.
-15. Wyświetl wszystkie zasoby z folderu /var/log, których nazwa rozpoczyna się od ‘a’ a na 3 pozycji znajduje się litera ‘t’.
-16. Wyświetl 20 pierwszych linii pliku z ćwiczenia 9.
-17. Wyświetl na konsoli liczbę wyrazów z pliku z zadania 7.
-18. Ukryj plik nazwisko.txt korzystając z poznanych poleceń powłoki.
-19. Zmień własne hasło.
-20. Sprawdź własny identyfikator oraz grupy, do których należysz.
-21. Sprawdź kto jest zalogowany w chwili obecnej w systemie.
-22. Zapoznaj się z opisem struktury katalogów - polecenie `man 7 hier`. 
-23. Wyświetl zawartość katalogu domowego.
-24. Wyświetl zawartość podstawowych katalogów w systemie (np. /dev, /etc, /home, /usr).
-25. Utwórz katalog kat1 w katalogu domowym.
-26. W katalogu kat1 utwórz jednym poleceniem strukturę katalogów kat2/kat3/kat4.
-27. Usuń jednym poleceniem całą strukturę katalogów kat3/kat4.
-28. Utwórz w katalogu domowym pliki o dowolnych nazwach z rozszerzeniami .txt i .c.
-29. Skopiuj jednym poleceniem wszystkie pliki z katalogu domowego z rozszerzeniem .txt do katalogu kat1.
-30. Skopiuj jednym poleceniem wszystkie pliki z katalogu domowego z rozszerzeniem .c do katalogu kat2.
-31. Skopiuj całą strukturę katalogów kat1 tworząc analogiczną strukturę o nazwie kat1b.
-32. Usuń wszystkie plik z katalogu kat1/kat2.
-33. Usuń jednym poleceniem całą strukturę katalogów kat1b.
-34. Zmień nazwę dowolnego pliku w katalogu kat1.
-35. Przenieś katalog kat1/kat2 do katalogu domowego tworząc w ten sposób katalog kat2b.
-36. Przy pomocy programu locate znajdź wszystkie pozycje, które posiadają w nazwie słowo mozilla.
-37. Przy pomocy programu locate znajdź wszystkie pozycje, które posiadają w nazwie słowo mozilla i znajdują się w podkatalogach katalogu /usr.
-38. Skopiuj wszystkie pliki zwykłe o rozmiarze pomiędzy 10 a 100 bajtów z katalogu /usr/bin do katalogu kat1/kat2 (wykorzystaj polecenie find z parametrem -exec).
-39. W katalogu domowym utwórz plik o nazwie plik.txt - sprawdź jakie są prawa dostępu do niego.
-40. Przejrzyj pomoc systemową dla wszystkich poleceń zaprezentowanych podczas zajęć.
-
-------
+---
 
 1. Navigate to your home folder and display all of its contents along with permissions information.
 2. Display the contents of the `/var/log` folder sorted by size (in more human-readable sizes - KB, MB, etc.) in ascending order.
-3. Using the `nano` editor, write your name to the file name.txt.
-4. using the `echo` command, write your last name to the file last name.txt.
+3. Using the `nano` editor, write your name to the file `firstname.txt`.
+4. using the `echo` command, write your last name to the file `lastname.txt`.
 5. Using the cat command, display the contents of both files.
-6. Using the cat command, add the contents of the file name.txt to the file name.txt.
-7. Write a list of folders from your home folder to the file.
-8. Using the find tool, search for all empty files in the home folders of the
-users.
-9. Using the `find` tool, search for all regular files in your home folder and save the result of the command to the file ~/my_files.txt.
+6. Using the cat command, add the contents of the file `lastname.txt` to the file `firstname.txt`.
+7. Write a list of folders from your home folder to the file with the name of your choice.
+8. Using the `find` tool, search for all empty files in the home folders of all the users.
+9. Using the `find` tool, search for all regular files in your home folder and save the result of the command to the file `~/my_files.txt`.
 10. Using `find` search all the files you own.
 11. Using `find` search for all files in the `~` folder that have been modified in the last day.
 12. Using `find`, find all files that have the word 'mozilla' in their name and are located in subdirectories of the `/usr` directory.
@@ -476,26 +431,25 @@ users.
 15. Display all resources from the `/var/log` folder whose name begins with 'a' and the letter 't' is in the 3rd position.
 16. Display the first 20 lines of the file from exercise 9.
 17. Display on the console the number of words from the file from exercise 7.
-18. Hide the file name.txt using the shell commands you learned.
+18. Hide the file `name.txt` using the shell commands you learned.
 19. Change your own password.
 20. Check your own ID and the groups to which you belong.
 21. Check who is currently logged into the system.
 22. Review the description of the directory structure - the `man 7 hier` command. 
 23. Display the contents of the home directory.
 24. View the contents of the basic directories on the system (e.g. `/dev, /etc, /home, /usr`).
-25. Create directory cat1 in the home directory.
-26. In the cat1 directory, create the cat2/cat3/cat4 directory structure with one command.
-27. Delete the entire cat3/cat4 directory structure with one command.
-28. Create arbitrarily named files with .txt and .c extensions in the home directory.
-29. Copy all files in the home directory with .txt extensions to the cat1 directory with one command.
-30. Copy with one command all files from home directory with .c extension to cat2 directory.
-31. Copy the entire directory structure of cat1 creating an analogous structure named cat1b.
-32. Delete all files from the cat1/cat2 directory.
-33. Delete the entire cat1b directory structure with one command.
-34. Rename any file in cat1 directory.
-35. Move the cat1/cat2 directory to your home directory thus creating the cat2b directory.
-36. Using the locate program, find all items that have the word mozilla in their name.
-37. Using the locate program, find all items that have the word mozilla in their names and are located in subdirectories of the /usr directory.
-38. copy all regular files between 10 and 100 bytes in size from the /usr/bin directory to the cat1/cat2 directory (use the find command with the -exec parameter).
-39. In your home directory, create a file named file.txt - check what the access rights to it are.
-40. Review the system help for all the commands presented in class.
+25. Create directory `cat1` in the home directory.
+26. In the `cat1` directory, create the `cat2/cat3/cat4` directory structure with one command.
+27. Delete the entire `cat3/cat4` directory structure with one command.
+28. Create two arbitrarily named files with `.txt` and `.c` extensions in the home directory.
+29. Copy all files in the home directory with `.txt` extensions to the `cat1` directory with one command.
+30. Copy with one command all files from home directory with `.c` extension to  `cat2` directory.
+31. Copy the entire directory structure of `cat1` creating an analogous structure named `cat1b`.
+32. Delete all files from the `cat1/cat2` directory.
+33. Delete the entire `cat1b` directory structure with one command.
+34. Rename any file in `cat1` directory.
+35. Move the `cat1/cat2` directory to your home directory thus creating the `cat2b` directory.
+36. Using the `locate` program, find all items that have the word `mozilla` in their name.
+37. Using the `locate` program, find all items that have the word `mozilla` in their names and are located in subdirectories of the `/usr` directory.
+38. copy all regular files between 10 and 100 bytes in size from the `/usr/bin` directory to the `cat1/cat2` directory (use the `find` command with the `-exec` parameter - be carefull when executing commands this way, those changes might be hard to rollback).
+39. In your home directory, create a file named `file.txt` - check what are the access rights to it.
