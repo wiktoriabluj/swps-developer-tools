@@ -13,7 +13,13 @@
 
 ### 1.1 Cloning an existing repository into local computer.
 
-Pending ...
+We clone a remote repository by running below command:
+
+```bash
+git clone https://url.to.repo
+```
+
+
 
 ### 1.2 Pushing local changes into remote repository.
 
