@@ -6,8 +6,8 @@
 
 ## 0. Configuration check
 
-* [ ] Git installed?
-* [ ] Visual Studio Code installed?
+* [x] Git installed?
+* [x] Visual Studio Code installed?
 
 ## 1. Scenarios
 
