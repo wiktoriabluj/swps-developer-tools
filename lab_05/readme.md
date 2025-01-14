@@ -125,7 +125,7 @@ $ ls | grep -x '[a-z]\+'
 $ ls | grep -x '[a-z0-9]\+'
 ```
 
-will only write out lines that consist of at least one lowercase letter (or more). Another example is only lowercase letters and numbers. If we use the `-E` option of the `grep` command then we don't need to use the `\` character before `+`:
+will only write out lines that consist of at least one lowercase letter. Another example is only lowercase letters and numbers. If we use the `-E` option of the `grep` command then we don't need to use the `\` character before `+`:
 ```console
 $ ls | grep -xE '[a-z]+'
 $ ls | grep -xE '[a-z0-9]+'
@@ -172,7 +172,7 @@ Also remember that we can pipe the value returned by `grep` back to the `grep` c
 7. In the `/etc` folder, find all names that start with 'c' and end with 'y'.
 8. In the `/etc` folder, find all names that have two adjacent 's' letters.
 9.  Build an expression that will select names that contain a six-letter string of characters, of which the first, third and fifth character can be any character, the second and fourth must be an uppercase letter, the sixth must be an `e`.
-10. From the home folder, display all names that are exactly 4 characters in length (contains onlynlowercase anduppercase letters and numbers).
+10. From your home folder, display all names that are exactly 4 characters in length. Those names should contain only lowercase and uppercase letters and numbers.
 11. From the `/var/log` folder, display all names that have the extension 'log'.
 12. Display the lines and their numbers by searching the `/var/log/auth.log.1` file for your username.
 13. The same as in task 11, but searching the subfolders as well.
