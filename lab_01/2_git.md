@@ -1,4 +1,4 @@
-# LAB 02. Learning Git.
+# LAB 01. Part 2. Learning Git.
 
 Git is a distributed version control system that allows you to track file changes, create project histories and collaborate on code. Its operation is based on a repository (repo), which stores all versions of files and tracks every change reliably and efficiently. To better understand how Git works, let's review the key elements and concepts.
 

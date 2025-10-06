@@ -1,4 +1,4 @@
-# MARKDOWN markup language.
+# Lab 01. Part 1. MARKDOWN markup language.
 
 
 Markdown is a simple (at least its basic version) markup language for quick formatting of text documents. It can be used as a formatting tool for technical documentation, on websites (web browser, after parsing it, displays it as HTML), for writing books (using a suitable editor).

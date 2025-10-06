@@ -1,4 +1,4 @@
-# Developer tools, 2024/2025
+# Developer tools, 2025/2026
 
 Course syllabus: [syllabus](Developer_Tools24_25.pdf)
 
