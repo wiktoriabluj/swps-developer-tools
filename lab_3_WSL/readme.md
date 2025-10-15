@@ -63,7 +63,7 @@ The following command will perform the installation of Ubuntu 22.04 on your mach
 wsl --install
 
 # or specific distribution
-wsl.exe --install Ubuntu-22.04
+wsl.exe --install -d Ubuntu-22.04
 ```
 
 Looking at the official documentation, we learn that it is possible to install different distributions, and the default is Ubuntu, which we will use in class.
