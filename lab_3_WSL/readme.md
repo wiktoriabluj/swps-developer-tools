@@ -46,15 +46,19 @@ To do this, go to the Control Panel, then to Programs and Features, and select T
 
 ![](wsl_windows_features.png)
 
-After completing all the previous steps, we can proceed with the WSL installation.
+The WSL should now install and you will be asked to perform system reboot.
 
-The following command will perform the installation.
+
+**Step 3. Install Linux distribution.**
+
+The following command will perform the installation of Ubuntu 22.04 on your machine. It may take a while as this system needs to be downloaded from the Internet.
+
 
 ```powershell
+# default distributions
 wsl --install
 
-# or
-
+# or specific distribution
 wsl.exe --install Ubuntu-22.04
 ```
 
