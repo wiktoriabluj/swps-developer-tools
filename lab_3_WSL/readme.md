@@ -25,7 +25,11 @@ To make sure that installation is necessary, we will first check whether WSL is 
 In the command prompt (run it with administrator privileges), enter the command:
 
 ```powershell
+# list installed distributions
 wsl --list
+
+# list all available distributions to install from the Internet
+wsl --list --online
 ```
 If the command is not found, it means that `WSL` is not installed. You can also check its presence by searching for the phrase `WSL` in the Windows search box, as shown in the screenshots below.
 
