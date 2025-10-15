@@ -68,7 +68,7 @@ wsl.exe --install -d Ubuntu-22.04
 
 Looking at the official documentation, we learn that it is possible to install different distributions, and the default is Ubuntu, which we will use in class.
 
-**After installation, you will need to restart your computer.**
+**After installation, you might be asked to restart your computer.**
 
 ### 2. Learning bash.
 
