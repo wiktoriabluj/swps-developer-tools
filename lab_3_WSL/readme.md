@@ -52,6 +52,10 @@ The following command will perform the installation.
 
 ```powershell
 wsl --install
+
+# or
+
+wsl.exe --install Ubuntu-22.04
 ```
 
 Looking at the official documentation, we learn that it is possible to install different distributions, and the default is Ubuntu, which we will use in class.
